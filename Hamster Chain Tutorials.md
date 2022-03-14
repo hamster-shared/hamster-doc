@@ -26,7 +26,7 @@ Points to note before run in docker：
 
 * You can choose to run your own test node with Docker. The docker build command is as follows, where YourDataDir is your local directory address, YourNodeName is your node name 
 
-```go
+```bash
 docker run -p 30333:30333 -p 9944:9944 -p 9933:9933 --restart=always -d -v <YourDataDir>:/tmp/db hamstershare/hamster:v1.0.0 /opt/ttchain/node-template --dev --name <YourNodeName> --ws-external --rpc-external --rpc-cors all --unsafe-rpc-external --rpc-methods unsafe --unsafe-ws-external --no-mdns
 ```
 
@@ -38,7 +38,7 @@ First, complete the [basic Rust setup instructions](https://github.com/hamster-s
 
 ### download
 
-```
+```bash
 git clone https://github.com/hamster-shared/hamster.git && cd hamster
 ```
 
@@ -55,13 +55,13 @@ cargo build --release
 
 Once the project has been built, the following command can be used to explore all parameters and subcommands:
 
-```
+```bash
 ./target/release/node-template -h
 ```
 
 ### Run
 
-```
+```bash
 ./target/release/node-template --dev --ws-external --rpc-external --rpc-cors all --unsafe-rpc-external --rpc-methods unsafe --unsafe-ws-external --no-mdns
 ```
 

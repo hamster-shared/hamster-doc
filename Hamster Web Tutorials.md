@@ -16,11 +16,9 @@ Points to note before run in docker：
 
 * You can modify the value of BASE_URL by yourself to connect to different underlying chains
 
+```bash
+docker run -d -e BASE_URL=ws://127.0.0.1:9944 -p 80:80 hamstershare/hamstershare-frontend:latest
 ```
-docker run -d -e BASE_URL=ws://127.0.0.1:9944 -p 80:80 registry.ttchain.tntlinking.com/ttchain/ttchain_frontent_v2:1.0.6
-```
-
-
 
 # 3. How to use
 
