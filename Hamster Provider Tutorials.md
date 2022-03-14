@@ -83,16 +83,16 @@ Once the basic setup is complete, you can jump to the resource details page, whe
 - Here you can
 
   - Modify the unit price of the rental \h
-  - increase the number of hours to be rented out
-  - rent out the resource again if it has expired
+  - Increase the number of hours to be rented out
+  - Rent out the resource again if it has expired
   - Delete the resource to be rented out if it is in a normal state
-  - You can take away your earnings
+  - Take away your earnings
 
 
 
 ## Pledge
 
-Please note: Before renting the machine, you must pledge a certain amount, otherwise the order will fail to be executed, the pledge must meet the order amount of 1:1, you can play as pledge in this screen
+Note: Before renting the machine, you must pledge a certain amount, otherwise the order will fail to be executed, the pledge must meet the order amount of 1:1, you can play as pledge in "account information"
 
 ![image-20220222170800871](https://gitee.com/lzw657434763/pictures/raw/master/Blog/20220222170801.png)
 
@@ -100,7 +100,7 @@ Please note: Before renting the machine, you must pledge a certain amount, other
 
 
 
-## Resources for Hire
+## Rental Resources
 
 When the above operation is completed and confirmed, come to the boot screen and click start, then you can view your rental resources in the calculation market.
 

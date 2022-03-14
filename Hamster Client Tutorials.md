@@ -1,24 +1,16 @@
-
-
-
-
-
-
 # Hamster Client
 
-Hamster Client is used to provide users with the ability to purchase and manage connections to their purchased resources . This includes the Marketplace, My Orders and My Resources modules.
+# 1. Overview
 
+> Hamster Client is used to provide users with the ability to purchase and manage connections to their purchased resources . This includes the Marketplace, My Orders and My Resources modules.
 
+# 2. Run
 
-# 1. Run
+Download the appropriate version of the client for your system through our [distribution](https://github.com/hamster-shared/hamster-client/releases), or download the source code from [github](https://github.com/hamster-shared/hamster-client) to compile and run.
 
-Download the appropriate version of the client for your system through our [distribution](https://github.com/hamster-shared/hamster-client/releases)
+# 3. How to use
 
-
-
-# 2. how to use
-
-### 2.1 import account
+### 3.1 import account
 
 The first time you enter into the client, you need to import your account, as shown in the figure
 
@@ -28,19 +20,19 @@ The first time you enter into the client, you need to import your account, as sh
 
 
 
-### 2.2 Setting
+### 3.2 Setting
 
 In the settings, you can configure your own public key information, configure the chain node you want to connect to (default is ws://127.0.0.1:9944), you can modify it to the corresponding ip+port number, and you can also set the gateway you want to connect to
 
 ![image-20220309171309170](https://gitee.com/lzw657434763/pictures/raw/master/Blog/20220309171309.png)
 
-### 2.3 Resource Market
+### 3.3 Resource Market
 
 You can view and buy all the resources now available in the 'Resource Market', and enter your public key and duration of your purchase.
 
 ![image-20220309154957770](https://gitee.com/lzw657434763/pictures/raw/master/Blog/20220309154957.png)
 
-### 2.4 Order List
+### 3.4 Order List
 
 After the purchase is completed, you can check your order information in 'Order List', and the order status are: Completed, Cancelled, and Processing.
 
@@ -54,7 +46,7 @@ After the purchase is completed, you can check your order information in 'Order 
 
 
 
-### 2.5 My Resource
+### 3.5 My Resource
 
 Once the order has been processed, you can find all the resources you purchased here
 
@@ -62,7 +54,7 @@ Once the order has been processed, you can find all the resources you purchased 
 
 
 
-### 2.6 Link
+### 3.6 Link
 
 You can connect your purchased resources here, click connect, then initialize the configuration, enter the port you want to map to the local machine, click link, then you can check the status to see if the connection is successful. 	
 

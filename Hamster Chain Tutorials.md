@@ -1,14 +1,12 @@
 # Hamster Node
 
-Hamster Nodes are the underlying chain nodes of the Hamster Network and provide services to the entire Hamster Network. If you would like to participate in the infrastructure of the Hamster Network and become a validator node for the Hamster Network, please refer to the following steps.
+Hamster Nodes are the underlying chain nodes of the Hamster Network and provide services to the entire Hamster Network.
 
 # 1. Overview
 
 ## 1.1 Node Responsibilities
 
-Hamster node is a custom node built on Substrate framework . It provides basic functions such as block out, provider registration, calculating market, and executing orders.
-
-
+Hamster node is a custom node built on Substrate framework . It provides basic functions such as provider registration, calculating market, and executing orders.
 
 ## 1.2 Hardware
 
@@ -29,7 +27,7 @@ Points to note before run in docker：
 * You can choose to run your own test node with Docker. The docker build command is as follows, where YourDataDir is your local directory address, YourNodeName is your node name 
 
 ```go
-docker run  -p 30333:30333 -p 9944:9944 -p 9933:9933 --restart=always -d -v /Users/lzw/tmp/data2:/tmp/db registry.ttchain.tntlinking.com/ttchain/ttchain_v2:1.0.3 /opt/ttchain/node-template --dev --ws-external --rpc-external --rpc-cors all --unsafe-rpc-external --rpc-methods unsafe --unsafe-ws-external --no-mdns
+docker run -p 30333:30333 -p 9944:9944 -p 9933:9933 --restart=always -d -v <YourDataDir>:/tmp/db hamstershare/hamster:v1.0.0 /opt/ttchain/node-template --dev --name <YourNodeName> --ws-external --rpc-external --rpc-cors all --unsafe-rpc-external --rpc-methods unsafe --unsafe-ws-external --no-mdns
 ```
 
 ## 2.2 Binary
@@ -66,8 +64,6 @@ Once the project has been built, the following command can be used to explore al
 ```
 ./target/release/node-template --dev --ws-external --rpc-external --rpc-cors all --unsafe-rpc-external --rpc-methods unsafe --unsafe-ws-external --no-mdns
 ```
-
-
 
 # 3. Create an account
 

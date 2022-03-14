@@ -1,12 +1,12 @@
 # Hamster Dapp
 
-Hamster Dapp, which allows users to purchase compute resources that have already been provided, and pay a certain Token to purchase a certain amount of time to use the compute resources. We can pay by the hour for more flexible use.
+# 1. Overview
 
+> Hamster Dapp, which allows users to purchase compute resources that have already been provided, and pay a certain Token to purchase a certain amount of time to use the compute resources. We can pay by the hour for more flexible use.
 
+# 2. Run
 
-# 1. Run
-
-## 1.1 Docker
+## 2.1 Docker
 
 docker is the easiest way to build, we recommend using docker for building Hamster nodes
 
@@ -22,9 +22,9 @@ docker run -d -e BASE_URL=ws://127.0.0.1:9944 -p 80:80 registry.ttchain.tntlinki
 
 
 
-# 2. how to use
+# 3. How to use
 
-## 2.1 Link Wallet
+## 3.1 Link Wallet
 
 First make sure you have the browser wallet plugin [Polkadot{.js} extension](https://polkadot.js.org/extension/) installed.
 
@@ -38,7 +38,7 @@ Then visit the web, choose Link wallet. If you have imported your account in adv
 
 
 
-## 2.2 Order Management
+## 3.2 Order Management
 
 Then you can buy resources in dapp or manage your own resource prices, rental times, pledges for your own account, and also view your orders and agreements
 
