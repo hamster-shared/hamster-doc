@@ -64,3 +64,10 @@ Then click copy and execute the command on the command line to connect successfu
 
 ![image-20220309155205099](https://gitee.com/lzw657434763/pictures/raw/master/Blog/20220309155205.png)![image-20220309155215376](https://gitee.com/lzw657434763/pictures/raw/master/Blog/20220309155215.png)
 
+
+
+### 3.7 Status
+
+![image-20220316172905858](https://gitee.com/lzw657434763/pictures/raw/master/Blog/20220316172906.png)
+
+You can copy the ssh command to the command line and run it to access the purchased container

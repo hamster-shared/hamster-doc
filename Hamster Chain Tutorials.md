@@ -27,7 +27,7 @@ Points to note before run in docker：
 * You can choose to run your own test node with Docker. The docker build command is as follows, where YourDataDir is your local directory address, YourNodeName is your node name 
 
 ```bash
-docker run -p 30333:30333 -p 9944:9944 -p 9933:9933 --restart=always -d -v <YourDataDir>:/tmp/db hamstershare/hamster:v1.0.0 /opt/ttchain/node-template --dev --name <YourNodeName> --ws-external --rpc-external --rpc-cors all --unsafe-rpc-external --rpc-methods unsafe --unsafe-ws-external --no-mdns
+docker run -p 30333:30333 -p 9944:9944 -p 9933:9933 --restart=always -d -v <YourDataDir>:/tmp/db --name=hamster hamstershare/hamster:v1.0.0 /opt/ttchain/node-template --dev --name <YourNodeName> --ws-external --rpc-external --rpc-cors all --unsafe-rpc-external --rpc-methods unsafe --unsafe-ws-external --no-mdns
 ```
 
 ## 2.2 Binary
