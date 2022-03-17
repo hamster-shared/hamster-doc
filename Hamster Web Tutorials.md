@@ -12,7 +12,7 @@ docker is the easiest way to build, we recommend using docker for building Hamst
 
 Points to note before run in docker：
 
-- You need to install [docker][https://www.docker.com/] by yourself before starting, refer to docker official website for details
+- You need to install [docker](https://www.docker.com/) by yourself before starting, refer to docker official website for details
 
 * You can modify the value of BASE_URL by yourself to connect to different underlying chains
 

@@ -18,9 +18,9 @@ docker is the easiest way to run, we recommend using docker for building Hamster
 
 Points to note before run in docker：
 
-- You need to install [docker][https://www.docker.com/] by yourself before starting, refer to docker official website for details
+- You need to install [docker](https://www.docker.com/) by yourself before starting, refer to docker official website for details
 
-* You can choose to run your own test node with Docker. The docker build command is as follows, where <YourDataDir> is your local directory address, <YourNodeName> is your node name 
+* You can choose to run your own test node with Docker. The start command is as follows, where <YourDataDir> is your local directory address, <YourNodeName> is your node name 
 
 ```bash
 docker run -p 30333:30333 -p 9944:9944 -p 9933:9933 --restart=always -d -v <YourDataDir>:/tmp/db --name=hamster hamstershare/hamster:v1.0.0 /opt/ttchain/node-template --dev --name <YourNodeName> --ws-external --rpc-external --rpc-cors all --unsafe-rpc-external --rpc-methods unsafe --unsafe-ws-external --no-mdns
