@@ -32,7 +32,7 @@ You can check if the container is running properly by using the following comman
 docker logs -f hamster
 ```
 
-![image-20220316165302793](https://gitee.com/lzw657434763/pictures/raw/master/Blog/20220316165303.png)
+![image-20220316165302793](./doc/20220316165303.png)
 
 ## 2. Register for Resources
 
@@ -40,7 +40,7 @@ Before registering for resources, please ensure that you have created an account
 
 Once registered, start the provider process on the computer you wish to rent out, please refer to [Hamster Provider Tutorials](https://github.com/hamster-shared/hamster-doc/blob/main/Hamster%20Provider%20Tutorials.md#2-run) for the start-up process，then visits[provider](http://localhost:3100)
 
-![image-20220222164333091](https://gitee.com/lzw657434763/pictures/raw/master/Blog/20220316170723.png)
+![image-20220222164333091](./doc/20220316170723.png)
 
 Change the address in the corresponding chainAddree to your chain address, account to your account helper, select cpu, memory, boot method and other information and click update.
 

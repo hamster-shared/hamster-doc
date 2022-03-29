@@ -71,31 +71,31 @@ Once the project has been built, the following command can be used to explore al
 
 First go to [polkadot.js.org](https://polkadot.js.org/apps/), click the icon on the top left corner, then select "DEVELOPMENT", click "Local Node", and finally click "Switch" to enter the blockchain browser interface
 
-![image-20220221164251970](https://gitee.com/lzw657434763/pictures/raw/master/Blog/20220221164252.png)
+![image-20220221164251970](./doc/20220221164252.png)
 
 Or, if your chain node has a public ip, you can enter your own ip in the address field below and click save.
 
-![image-20220223141139131](https://gitee.com/lzw657434763/pictures/raw/master/Blog/20220223141139.png)
+![image-20220223141139131](./doc/20220223141139.png)
 
 
 
 Then click on "Accounts", "Accounts", "Add account".
 
-![image-20220221164436150](https://gitee.com/lzw657434763/pictures/raw/master/Blog/20220221164436.png)
+![image-20220221164436150](./doc/20220221164436.png)
 
 Please make sure to save your own mnemonic seeds and click "Next". Enter name and password.
 
-![image-20220221164601246](https://gitee.com/lzw657434763/pictures/raw/master/Blog/20220221164601.png)
+![image-20220221164601246](./doc/20220221164601.png)
 
 ## 3.2 transfer
 
 All transactions on the chain require tokens, you can try a test account first and trade a certain amount of tokens into your account
 
-![image-20220223141906963](https://gitee.com/lzw657434763/pictures/raw/master/Blog/20220223141907.png)
+![image-20220223141906963](./doc/20220223141907.png)
 
 Select "send", select the account and amount, and click "Make Transfer"
 
-![image-20220223142022730](https://gitee.com/lzw657434763/pictures/raw/master/Blog/20220223142022.png)
+![image-20220223142022730](./doc/20220223142022.png)
 
 At this point, you have a test chain and the address on the test chain
 

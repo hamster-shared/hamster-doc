@@ -32,7 +32,7 @@ Then visit the web, choose Link wallet. If you have imported your account in adv
  http://localhost:80
  ```
 
-![image-20220228105702184](https://gitee.com/lzw657434763/pictures/raw/master/Blog/20220228105702.png)
+![image-20220228105702184](./doc/20220228105702.png)
 
 
 
@@ -40,16 +40,16 @@ Then visit the web, choose Link wallet. If you have imported your account in adv
 
 Then you can buy resources in dapp or manage your own resource prices, rental times, pledges for your own account, and also view your orders and agreements
 
-![image-20220228111054587](https://gitee.com/lzw657434763/pictures/raw/master/Blog/20220228111054.png)
+![image-20220228111054587](./doc/20220228111054.png)
 
 
 
 After purchasing the resource, you can check the status of your order in the "order list", if the provider did not execute successfully, you can choose to cancel order to cancel this order
 
-![image-20220228111327965](https://gitee.com/lzw657434763/pictures/raw/master/Blog/20220228111328.png)
+![image-20220228111327965](./doc/20220228111328.png)
 
-![image-20220228112033464](https://gitee.com/lzw657434763/pictures/raw/master/Blog/20220228112033.png)
+![image-20220228112033464](./doc/20220228112033.png)
 
 View the resources you are using in the service list after the order has been completed
 
-![image-20220228112107425](https://gitee.com/lzw657434763/pictures/raw/master/Blog/20220228112107.png)
+![image-20220228112107425](./doc/20220228112107.png)
