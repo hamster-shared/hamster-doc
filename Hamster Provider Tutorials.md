@@ -20,11 +20,11 @@
 # install package dependency
 
 ## ubuntu
-sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virtinst virt-manager
+sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virtinst virt-manager libvirt-devel
 sudo systemctl is-active libvirtd
 
 ## centos
-yum install -y qemu-kvm libvirt virt-install
+yum install -y qemu-kvm libvirt virt-install libvirt-dev
 systemctl start libvirtd && systemctl enable libvirtd
 
 
@@ -38,7 +38,7 @@ cd frontend
 npm install
 
 # build frontend 
-npm run build
+npm run serve
 
 # go to root directory
 cd ..
