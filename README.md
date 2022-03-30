@@ -38,7 +38,7 @@ docker logs -f hamster
 
 Before registering for resources, please ensure that you have created an account and that it has a sufficient balance, please refer to [Create an account](https://github.com/hamster-shared/hamster-doc/blob/main/Hamster%20Chain%20Tutorials.md#3-create-an-account)
 
-Once registered, start the provider process on the computer you wish to rent out, please refer to [Hamster Provider Tutorials](https://github.com/hamster-shared/hamster-doc/blob/main/Hamster%20Provider%20Tutorials.md#2-run) for the start-up process，then visits[provider](http://localhost:3100)
+Once registered, start the provider process on the computer you wish to rent out, please refer to [Hamster Provider Tutorials](https://github.com/hamster-shared/hamster-doc/blob/main/Hamster%20Provider%20Tutorials.md#2-run) for the start-up process，then visits [provider](http://localhost:3100)
 
 ![image-20220222164333091](./doc/20220316170723.png)
 
