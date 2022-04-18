@@ -5,6 +5,7 @@ If you want to test hamster in its entirety, you must have the following three c
 - chain node: it needs to be deployed on a machine with a public ip
 - provider
 - client
+- gateway
 
 The following is the minimum test procedure, for a full description please go to the README or tutorial of each project
 
@@ -34,7 +35,13 @@ docker logs -f hamster
 
 ![image-20220316165302793](./doc/20220316165303.png)
 
-## 2. Register for Resources
+## 2. Start and register the gateway to the chain node
+
+After starting the chain node, you need to start the gateway. For the start-up process, please refer to [Hamster Gateway Tutorials](https://github.com/hamster-shared/hamster-doc/blob/main/Hamster%20Gateway%20Tutorials.md) for the start-up process，then visits [gateway](http://localhost:3100)
+
+Change the address in the corresponding chainAddree to your chain address, account to your account helper,configure your public address and port,then follow up.
+
+## 3. Register for Resources
 
 Before registering for resources, please ensure that you have created an account and that it has a sufficient balance, please refer to [Create an account](https://github.com/hamster-shared/hamster-doc/blob/main/Hamster%20Chain%20Tutorials.md#3-create-an-account)
 
@@ -48,11 +55,12 @@ Before renting the machine, you must pledge a certain amount, otherwise the orde
 
 When the above operation is completed and confirmed, come to the "boot" and click start, then go to "Resource Details" to change your price, at last you can view your rental resources in the calculation market. 
 
-## 3. Purchase and use resources
+## 4. Purchase and use resources
 
 Download the appropriate version of the client for your system through our [distribution](https://github.com/hamster-shared/hamster-client/releases)
 
 Once downloaded, please refer to [Hamster Client Tutorials](https://github.com/hamster-shared/hamster-doc/blob/main/Hamster%20Client%20Tutorials.md#3-how-to-use) to purchase and use the resources
 
 Note: A certain amount of token must also be in the account, please refer to [Transfer](https://github.com/hamster-shared/hamster-doc/blob/main/Hamster%20Chain%20Tutorials.md#3-create-an-account) for the process. create-an-account)
+
 
