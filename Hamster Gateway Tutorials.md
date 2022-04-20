@@ -34,6 +34,9 @@ npm install
 # build frontend 
 npm run build
 
+# run frontend
+npm run serve
+
 # go to root directory
 cd ..
 
