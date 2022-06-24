@@ -20,7 +20,7 @@
 # install package dependency
 
 ## ubuntu
-sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virtinst virt-manager libvirt-devel
+sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virtinst virt-manager libvirt-dev
 sudo systemctl is-active libvirtd
 
 ## centos
